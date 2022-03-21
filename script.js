@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
     window.speed = 300;
     //$("#boat").animate({ top: y, left: x }, 1200);
     init()
+    getInputJson();
 });
 
 
