@@ -287,3 +287,13 @@ function getCalcPosition(x, y, radius) {
     let fictiousPosition = new Position(newX, newY, 0);
     return fictiousPosition;
 }
+
+function getURL() {
+    return window.location.href;
+}
+
+function getInputJson() {
+    let url = getURL();
+    let json = url.split("input=")[1];
+    console.log(json)
+}
